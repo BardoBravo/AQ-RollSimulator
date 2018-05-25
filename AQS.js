@@ -1,5 +1,7 @@
 var methods;
-module.exports.func = rollOneDie;
+module.exports.rollOneDie = rollOneDie;
+module.exports.getDieType = getDieType;
+module.exports.averageDistribution = averageDistribution;
 
 /**
  * Returns a random Number between 1 and 6
